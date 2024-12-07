@@ -9,14 +9,21 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
 }
-#root {
+/* #root {
   position: relative;
   overflow: hidden;
-  /* max-height: var(--tg-viewport-height); */
+  max-height: var(--tg-viewport-height);
   max-height: 812px;
   height: 812px;
   width: 375px;
-  /* height: var(--tg-viewport-height); */
+  height: var(--tg-viewport-height);
+  margin: auto;
+} */
+#root {
+  position: relative;
+  overflow: hidden;
+  max-height: var(--tg-viewport-height);
+  height: var(--tg-viewport-height);
   margin: auto;
 }
 
