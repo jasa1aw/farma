@@ -17,7 +17,6 @@ import { ErrorPage } from '@/components/ErrorPage';
 import { useTelegramMock } from '@/hooks/useTelegramMock';
 import { useDidMount } from '@/hooks/useDidMount';
 import { useClientOnce } from '@/hooks/useClientOnce';
-import { useInitializeVacancies } from '@/hooks/useInitializeVacancies';
 import { init } from '@/core/init';
 
 import '../../app/globals.css';
@@ -75,7 +74,6 @@ function RootInner({ children }: PropsWithChildren) {
     initializeViewport();
     
   }, []);
-  useInitializeVacancies(); 
 
   // Enable debug mode to see all the methods sent and events received.
   useEffect(() => {
